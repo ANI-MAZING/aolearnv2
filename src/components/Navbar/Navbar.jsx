@@ -221,6 +221,7 @@
 
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import logo from './Vector.png'
 
 const navItems = [
     { label: "Learn", href: "#" },
@@ -237,16 +238,16 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-10 z-50 py-4 px-3 backdrop-blur-lg border-b w-max mx-auto rounded-full content-center">
+    <nav className="sticky top-10 z-50 py-4 px-3 backdrop-blur-lg shimmer-border bg-zinc-800 border-white/30 w-max mx-auto rounded-full content-center">
       <div className="container px-4 mx-auto w-max relative lg:text-sm">
         <div className="flex justify-between gap-[50px] items-center">
           <div className="flex items-center flex-shrink-0">
-            {/* <img className="h-[40px] w-full mr-2" src="" alt="Logo" /> */}
-            <span className="text-xl tracking-tight text-white">AO | Learn</span>
+            <img className="h-[30px] w-full mr-2" src={logo} alt="Logo" />
+            {/* <span className="text-xl tracking-tight text-white">AO | Learn</span> */}
           </div>
-          <ul className="hidden lg:flex ml-14 text-white space-x-12">
+          <ul className="hidden lg:flex ml-14 text-white  space-x-12">
             {navItems.map((item, index) => (
-              <li key={index}>
+              <li className="hover:text-orange-400" key={index}>
                 <a href={item.href}>{item.label}</a>
               </li>
             ))}

@@ -59,21 +59,21 @@ const features = [
     },
     {
       icon: <ShieldHalf />,
-      text: "Built-in Templates",
+      text: "No-code editors",
       description:
-        "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+        "Jumpstart your ML projects with a variety of built-in templates for different types of applications and environments.",
     },
     {
       icon: <BatteryCharging />,
       text: "Real-Time Preview",
       description:
-        "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+        "Preview your ML application in real-time as you make changes, allowing for quick iterations and adjustments.",
     },
     {
       icon: <PlugZap />,
       text: "Collaboration Tools",
       description:
-        "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+        "Work together with your team in real-time on ML models, enabling seamless collaboration and idea sharing.",
     },
     {
       icon: <GlobeLock />,
@@ -105,11 +105,11 @@ const FeaturesSection = () => {
       className="w-full sm:w-1/2 lg:w-1/3 p-4"
     >
       
-      <div className="flex flex-col   shadow-lg rounded-lg p-6 border bg-gradient-to-b from-zinc-800 to-black transition duration-300">
-        <div className="flex items-center justify-center h-12 w-12 p-2 bg-neutral-900 text-white rounded-full mx-auto mb-4">
+      <div className="flex flex-col   shadow-lg rounded-lg p-6 shimmer-border bg-gradient-to-b from-zinc-800 to-black transition duration-300">
+        <div className="flex items-center justify-center h-12 w-12 p-2 bg-neutral-900 text-orange-700 rounded-full mx-auto mb-4">
           {feature.icon}
         </div>
-        <h5 className="text-center text-xl font-semibold mb-2">
+        <h5 className="text-center text-xl  mb-2">
           {feature.text}
         </h5>
         <p className="text-center text-md text-neutral-500">
