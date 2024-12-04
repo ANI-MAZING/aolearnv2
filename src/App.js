@@ -14,7 +14,7 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
-      <TrustedBySection />
+      {/* <TrustedBySection /> */}
       <FeaturesSection />
       <PricingSection />
       <ClientReviewSection />

@@ -55,8 +55,8 @@ const Accordion = () => {
 
     const accordionItems = [
         {
-            title: 'What is your return policy?',
-            content: 'You can return any item within 30 days of purchase if it is in its original condition. A receipt is required for all returns.',
+            title: 'How to setup AO Learn?',
+            content: 'While spawning a process use and Id.',
         },
         {
             title: 'How do I track my order?',

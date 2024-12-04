@@ -23,7 +23,7 @@ function Cta() {
     <motion.div className="w-full flex mt-[100px] flex-col items-center justify-center gap-20">
         <div className="flex justify-center items-center flex-col gap-4">
             <a href="https://thecodingco.in">
-                <button className="relative px-5 bg-zinc-800 shimmer-border2 border-zinc-700 py-2 rounded-full text-xs shadow-2xl overflow-hidden">
+                <button className="relative px-5 bg-zinc-800 border-zinc-700 py-3 rounded-full text-xs shadow-2xl overflow-hidden">
                     <span className='flex items-center justify-center gap-4 text-white'>
                         Introducing AO Learn <FaChevronRight />
                     </span>
