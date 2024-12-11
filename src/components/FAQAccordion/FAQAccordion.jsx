@@ -56,15 +56,15 @@ const Accordion = () => {
     const accordionItems = [
         {
             title: 'How to setup AO Learn?',
-            content: 'While spawning a process use and Id.',
+            content: 'While spawning a process use  qG-uo90351vUF7WPmUcObFtk7NU1isZYdPS0r2yQdKY as module id to spawn a process and just write aolearn=require("aolearn").',
         },
         {
-            title: 'How do I track my order?',
-            content: 'You will receive an email with tracking information once your order has been shipped. You can also track your order through our website.',
+            title: 'How do i load my data',
+            content: 'we are using a fixed data standard which is used in the codecell demo ',
         },
         {
-            title: 'Do you offer customer support?',
-            content: 'Yes, we offer 24/7 customer support via email and phone. Feel free to contact us anytime.',
+            title: 'what can you do with aolearn',
+            content: 'applications utilizing aolearn can range from a wide variety from search engines to recomendation sytems to defi ai agents',
         },
     ];
 
