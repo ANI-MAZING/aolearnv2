@@ -46,7 +46,7 @@ const HeroSection = () => {
                     <motion.h1
                         variants={textVariants}
                         className="maxz-w-2xl bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-4xl md:text-7xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
-                        Build Train <span className='text-orange-700 '>Elevate</span>
+                        Build Train <span className=' text-orange-700 '>Elevate</span>
                     </motion.h1>
                     <motion.h2
                         variants={textVariants}

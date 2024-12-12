@@ -17,7 +17,7 @@ function App() {
       {/* <TrustedBySection /> */}
       <FeaturesSection />
       <PricingSection />
-      <ClientReviewSection />
+      {/* <ClientReviewSection /> */}
       <FAQSection />
       <Cta/>
       {/* <ContactSection /> */}

@@ -22,7 +22,7 @@ function Cta() {
 
     <motion.div className="w-full flex mt-[100px] flex-col items-center justify-center gap-20">
         <div className="flex justify-center items-center flex-col gap-4">
-            <a href="https://thecodingco.in">
+            <a href="#">
                 <button className="relative px-5 bg-zinc-800 border-zinc-700 py-3 rounded-full text-xs shadow-2xl overflow-hidden">
                     <span className='flex items-center justify-center gap-4 text-white'>
                         Introducing AO Learn <FaChevronRight />
@@ -32,7 +32,7 @@ function Cta() {
             <motion.h1
                 // variants={textVariants}
                 className="maxz-w-2xl bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-4xl md:text-7xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
-                Build Design Elevate
+                Build Train <span className='text-orange-700'>Elevate</span>
             </motion.h1>
             <motion.h2
                 // variants={textVariants}

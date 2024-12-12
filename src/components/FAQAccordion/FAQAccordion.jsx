@@ -55,16 +55,16 @@ const Accordion = () => {
 
     const accordionItems = [
         {
-            title: 'How to setup AO Learn?',
-            content: 'Our framework is optimized for decentralized infrastructure, offering seamless integration with Arweave and tools tailored for cost-effective, collaborative, and transparent Machine Learning. Unlike traditional frameworks, it focuses on accessibility, scalability, and decentralization.',
+            title: 'How do I spawn an AO Learn process?',
+            content: 'To spawn an AO Learn process simply use the module id qG-uo90351vUF7WPmUcObFtk7NU1isZYdPS0r2yQdKY while spawning the process.',
         },
         {
             title: 'Can beginners in Machine Learning use this framework?',
             content: 'Absolutely! The framework is designed to be beginner-friendly, with intuitive APIs, extensive documentation, and even no-code tools to help users get started without prior coding experience.',
         },
         {
-            title: 'Does the framework support integration with existing ML workflows?',
-            content: 'Yes, the framework is compatible with popular ML tools and libraries like scikit-learn, TensorFlow, and PyTorch, making it easy to integrate into your current workflows while leveraging its unique decentralized features.',
+            title: 'Does the framework support integration with BetterIDEa?',
+            content: 'Yes, the framework is compatible with popular BetterIDEa making it easy to integrate into your current workflows, also we have a special codecell for AO Learn on BEtterIDEa while leveraging its unique decentralized features.',
         },
     ];
 
